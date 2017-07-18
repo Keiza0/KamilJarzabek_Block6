@@ -150,18 +150,14 @@
 	padding-top: 0px;
 	padding-left: 10px;
 }
-
-.navigation {
-	padding-top: 15px;
-}
-
+/*
 .navigation ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-.navigation ul li {
+.navigation {
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -176,11 +172,41 @@
 .navigation ul li a:hover {
 	color: #666;
 }
+*/
+.navigation {
+	padding-top: 15px;
+	display: inline-block;
+	margin-left: 10px;
+}
 
-.slash {
+.navigation a {
+	display: inline-block;
+	color: #444;
+	text-decoration: none;
+	font-family: m500;
+}
+
+.navigation a:hover {
+	color: #666;
+	display: inline-block;
+}
+
+.navigation a:after {
+	margin-left: 5px;
+	content: "/";
 	color: #E65753;
 	font-weight: bold;
+	display: inline-block;
 }
+
+/*
+.slash:after {
+	content: "/";
+	color: #E65753;
+	font-weight: bold;
+	display: inline;
+}
+*/
 
 .cart_text {
 	margin-right: 15px;
