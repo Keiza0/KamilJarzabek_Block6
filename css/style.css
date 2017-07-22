@@ -544,24 +544,26 @@
 }
 
 
-.f_navigation {
+.f_navigation ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.f_navigation ul li {
 	display: inline-block;
 	margin-left: 10px;
 }
 
-.f_navigation  a {
-	display: inline-block;
+.f_navigation ul li a {
+	display: block;
 	color: #FFF;
 	text-decoration: none;
 	font-family: m500;
 }
 
-.f_navigation a:hover {
+.f_navigation ul li a:hover {
 	color: #EEE;
-	display: inline-block;
 }
 
 .f_navigation p {
