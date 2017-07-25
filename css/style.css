@@ -172,10 +172,16 @@
 	color: #666;
 }
 
+.ul li:last-child a::before {
+	content:"";
+}
+
+/*
 .slash {
 	color: #E65753;
 	font-weight: bold;
 }
+*/
 
 .cart_text {
 	margin-right: 15px;
