@@ -172,10 +172,6 @@
 	color: #666;
 }
 
-.ul li:last-child a::before {
-	content:"";
-}
-
 .navigation a:after {
  	margin-left: 5px;
  	content: "/";
@@ -184,6 +180,9 @@
 	display: inline-block;
 }
 
+.navigation:last-child a:after {
+	content:"";
+}
 
 
 /*
