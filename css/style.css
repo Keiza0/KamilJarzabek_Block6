@@ -176,11 +176,22 @@
 	content:"";
 }
 
+.navigation a:after {
+ 	margin-left: 5px;
+ 	content: "/";
+  	color: #E65753;
+  	font-weight: bold;
+	display: inline-block;
+}
+
+
+
+/*
 .slash {
 	color: #E65753;
 	font-weight: bold;
 }
-
+*\
 .cart_text {
 	margin-right: 15px;
 }
