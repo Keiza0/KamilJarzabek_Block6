@@ -180,7 +180,7 @@
 	display: inline-block;
 }
 
-.navigation  :last-child a:after {
+.navigation :last-child a:after {
 	content:"";
 }
 
