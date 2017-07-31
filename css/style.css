@@ -175,7 +175,7 @@
 .navigation ul li a:after {
  	margin-left: 5px;
  	content: "/";
-  	color: #E65753;
+  	color: red;
   	font-weight: bold;
 	display: inline-block;
 }
