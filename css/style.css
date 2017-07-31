@@ -172,7 +172,7 @@
 	color: #666;
 }
 
-.navigation a:after {
+.navigation ul li a:after {
  	margin-left: 5px;
  	content: "/";
   	color: #E65753;
